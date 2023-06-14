@@ -1,0 +1,101 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-style: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+    background-color: rgb(100,220,255);
+}
+#create, #login{
+    position: absolute;
+    top: 20%;
+    left:30%;
+    /*margin: -150px 0 0 -150px;*/
+    width: 80%;
+    height: auto;
+}
+#create h2{
+    color: #333;
+    text-shadow:0 0 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0% 0%;
+}
+h1{
+    color: #333;
+    text-shadow:0 0 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 2% 0%;
+}
+img{
+    position:absolute;
+    top: 20%;
+    left:10%;
+}
+input{
+    position: center;
+    width:80%;
+    height:24px;
+    max-width: 278px;
+    max-height: 24px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    color: #222;
+    border-top: 1px solid #444;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+    border-radius: 4px;
+    background-color: #eee;
+}
+
+.but1{
+    width: 300px;
+    min-height: 20px;
+    display: block;
+    background-color: rgb(0,100,185);
+    border: 1px solid #444;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 16px;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 5% 5%;
+}
+.but2{
+    width: 300px;
+    min-height: 20px;
+    display: block;
+    background-color: rgb(0,100,185);
+    border: 1px solid #444;
+    color: #fff;
+    padding: 9px 14px;
+    font-size: 16px;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 5% 5%;
+}
+.regist{
+    width: 70px;
+    min-height: 30px;
+    display: block;
+    background-color: lightseagreen;
+    border: 1px solid #444;
+    color: #fff;
+    padding: 7px 8px;
+    font-size: 16px;
+    line-height: normal;
+    border-radius: 10px;
+    margin: 5% 70%;
+}
+.but:hover {
+    background-color: #333;
+}

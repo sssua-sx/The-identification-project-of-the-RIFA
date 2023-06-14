@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="huangzy97" />
+<title>基于yolox框架的实时目标识别系统</title>
+<link rel="stylesheet" type="text/css" href="file/model_pred.css">
+
+</head>
+
+<body>
+<div class="bg"><img src="../static/bg.jpg" alt=""></div>
+
+<div id="main">
+    <div id="body" class="light">
+    	<div id="content" class="show">
+            <div class="demo">
+            	<form id="uploadForm" action="" method="post" enctype="multipart/form-data">
+                    <div class="upload_box">
+                        <div class="upload_main">
+                            <div class="upload_choose">
+                                <input id="fileImage" type="file" size="30" name="fileselect[]" multiple />
+                                <a id="but" href="/edit_detectSetting?name={{name}}">修改基本配置</a>&nbsp;&nbsp;
+                            </div>
+                            <div id="preview" class="upload_preview"></div>
+                        </div>
+                        <div class="upload_submit">
+                            <button type="button" id="fileSubmit" class="upload_submit_btn">确认上传图片</button>
+                        </div>
+						<div class="header clearfix">
+						<div class="left">
+						<a target="_blank" href="www.baidu.com">查看识别结果</a>
+						</div>
+						</div>
+                        <div id="uploadInf" class="upload_inf"></div>
+                    </div>
+                </form>
+            </div>
+        </div>  	
+    </div>
+</div>
+
+<div class="layer_footer">
+    <span>© 2022 Ant nest identification platform--LZU</span>
+    <span class="dot">·</span>
+    <a target="_blank" href="">相关网站</a>
+    <span class="dot">·</span>
+    <a href="" class="footer-mobile-show">联系我们</a>
+    <br />
+    <span>地址</span>
+</div>
+<script src="http://libs.baidu.com/jquery/1.4.4/jquery.js"></script>
+<script src="../file/model_pred.js"></script>
+<!-- <script src="model_pred.js"></script> -->
+
+
+</body>
+</html>

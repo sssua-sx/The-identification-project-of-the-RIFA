@@ -1,0 +1,13 @@
+# detect params
+confidence_thres: 0.2
+nms_thres: 0.3
+device: 'gpu'  # cpu
+auto_choose_device: true
+input_size: 640
+fp16: true
+
+# weight file
+weight_size: 's'                    # m,l,x,tiny
+model_path: '../setting/test/output/last.pth'
+classes_file: '../yolox/datasets/classes.txt'
+is_trt_file: false

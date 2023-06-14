@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{web_name}} 登录</title>
+    <link rel="stylesheet" type="text/css" href="file/login.css"/>
+</head>
+<body>
+    <h1>{{web_name}}</h1>
+    <div id="create">
+        <center><h2>用户登录</h2></center>
+        <form method="post">
+            <p>
+            <center><input type="text" placeholder="用户名" name="username" required /></center>
+            </p>
+            <p>
+            <center><input type="password" placeholder="密码" name="password" required /></center>
+            </p>
+            <center><button class="but1" type="submit">登录</button>
+                    <button class="but2" type="reset">重置</button>
+            </center>
+            <!--跳转到register的页面-->
+            <a class="regist" href="{{ url_for('register') }}">注册</a>
+        </form>
+    </div>
+    <img src="{{ url_for('static', filename='login_img.jpg')}}" width="400px" height="400px" alt="">
+</body>
+</html>

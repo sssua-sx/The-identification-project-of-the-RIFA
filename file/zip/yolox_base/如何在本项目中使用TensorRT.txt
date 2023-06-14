@@ -1,0 +1,14 @@
+首先你得安装TensorRT
+
+##############-然后安装 torch2trt-#################
+git clone https://github.com/NVIDIA-AI-IOT/torch2trt
+cd torch2trt
+python3 setup.py install
+##############################################
+
+############-然后在本文件夹中完成转换-##############
+修改TensorRTconverter.py中的相关参数后执行
+
+python3 TensorRTconverter.py
+
+###############################################

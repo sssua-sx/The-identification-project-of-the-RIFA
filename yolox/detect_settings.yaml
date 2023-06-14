@@ -1,0 +1,22 @@
+# detect params
+confidence_thres: 0.15
+nms_thres: 0.3
+device: 'gpu'  # cpu
+auto_choose_device: true
+input_size: 640
+fp16: false
+
+# weight file
+
+weight_size: 's'  # m,l,x,tiny
+model_path: 'E:/图像检测平台/webyolox-main/settings/test/output/last.pth'
+is_trt_file: false
+classes_file: 'E:/图像检测平台/webyolox-main/yolox/datasets/classes.txt'
+
+# input source
+
+source: 'D:\wechat\WeChat Files\wxid_02e6yx29tgvs22\FileStorage\Video\2022-08\'    #4a2dfc316935a6daf5c8272c99194ddd.mp4'      #  '0'      'assets/dog.jpg'   '/path/to/your/image_dir'
+source_type: 'cam'        # 'cam'   'image'            'image_dir'
+save_image: ture
+show_image: true
+start_with_pause: false   # false for continuous time image sequence, and true for others, pause 'space' to shift mode
