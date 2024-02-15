@@ -1,0 +1,2 @@
+RIFA.zip filter=lfs diff=lfs merge=lfs -text
+others.zip filter=lfs diff=lfs merge=lfs -text
